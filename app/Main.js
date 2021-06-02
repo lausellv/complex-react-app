@@ -32,6 +32,7 @@ function Main() {
 
 ReactDOM.render(<Main />, document.querySelector("#app"));
 
+// renders JS on the fly
 if (module.hot) {
   module.hot.accept();
 }
